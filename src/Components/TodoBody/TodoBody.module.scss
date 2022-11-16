@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+.todoBody {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1px;
+  max-width: 100%;
+  height: 257px;
+  padding: 1px 1px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: white 0 0 3px 0;
+
+  .todoItem {
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.2);
+
+    input[type=checkbox] {
+      max-width: 15px;
+      height: 15px;
+      width: 100%;
+    }
+
+    del {
+      color: #f55050;
+      font-family: 'Sono', sans-serif;
+    }
+    p{
+      font-family: 'Sono', sans-serif;
+    }
+
+    .deleteButton {
+      fill: #f55050;
+    }
+  }
+}
+
+
+.todoBody::-webkit-scrollbar {
+  width: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+.todoBody::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 56px;
+  background: rgba(0, 0, 0, 0.1);
+}

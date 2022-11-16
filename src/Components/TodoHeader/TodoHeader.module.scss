@@ -1,0 +1,26 @@
+.header{
+  box-shadow: white 0 0 3px 0;
+  margin-bottom: 20px;
+  height: 58px;
+  max-width: 100%;
+  background: whitesmoke;
+  input[type="text"]{
+    background: whitesmoke;
+    font-family: 'Sono', sans-serif;
+    width: 80%;
+    border-style: none;
+    height: 100%;
+    outline: none;
+    padding: 0 3%;
+  }
+  button{
+    width: 15%;
+    height: 60%;
+    background: deepskyblue;
+    box-shadow: deepskyblue 0 0 3px 0;
+    font-family: 'Sono', sans-serif;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+  }
+}

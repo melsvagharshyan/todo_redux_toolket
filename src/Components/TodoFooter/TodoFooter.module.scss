@@ -1,0 +1,25 @@
+.todoFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30%;
+  max-width: 100%;
+  padding: 15px 0;
+  margin: 20px 0;
+  background: rgba(255,255,255,0.2);
+  box-shadow: white 0 0 3px 0;
+  button{
+    border: none;
+    padding: 9px 0;
+    border-radius: 2px;
+    background: #f55050;
+    color: white;
+    font-size: 11px;
+    font-family: 'Sono', sans-serif;
+    width: 15%;
+    box-shadow: #f55050 0 0 3px 0;
+  }
+  span{
+    font-family: 'Sono', sans-serif;
+  }
+}
